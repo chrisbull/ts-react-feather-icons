@@ -1,9 +1,8 @@
-import React from 'react';
-import icons from './iconsObject';
+import icons from "./iconsObject";
 
 export type IconName = keyof typeof icons;
 
-export interface IconProps extends React.SVGProps<SVGSVGElement> {
+export interface IconProps {
   readonly color?: string;
   readonly size?: string | number;
 }
